@@ -39,5 +39,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-hello-world:${{ github.ref_name }}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-otlp-example:${{ github.ref_name }}
 
